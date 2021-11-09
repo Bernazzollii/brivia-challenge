@@ -1,0 +1,71 @@
+header {
+    position: absolute;
+    background: none;
+    &.acrylic {
+        backdrop-filter: blur(10px);
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+[type='reset'],
+[type='submit'],
+button,
+html [type='button'] {
+    -webkit-appearance: button;
+}
+
+.navbar-toggler {
+    align-items: center;
+    background-color: #252525;
+    border-radius: 0.25rem;
+    border: 1px solid #252525;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: center;
+    line-height: 1;
+    max-width: 250px;
+    padding: 0.25rem 0.75rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url('/src/images/navbar.png');
+    margin-right: 20px;
+    width: 22px;
+    height: 12px;
+}
+
+.c-search-icon {
+    align-self: center;
+    height: 25px;
+    width: 25px;
+}
+
+.form-control {
+    background: transparent;
+    border: unset;
+    &:focus {
+        color: #fff;
+        outline: none;
+    }
+}
+
+.c-text--white {
+    color: #fff;
+    font-size: 12px;
+}
+
+.header__logo {
+    padding: 10px 40px;
+}
