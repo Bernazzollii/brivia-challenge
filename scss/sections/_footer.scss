@@ -1,0 +1,28 @@
+.c-footer {
+  padding: 10px 0;
+  background-color: #171717;
+
+  .c-footer--logo {
+    padding: 20px 35px;
+  }
+
+  .h-divider {
+    width: 500px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #3b3b3b;
+  }
+
+  .c-copyright--section {
+    padding: 40px 35px;
+    white-space: pre;
+
+    .c-info-copyright {
+      font-size: 12px;
+      color: #3b3b3b;
+    }
+  }
+
+
+}

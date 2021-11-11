@@ -1,0 +1,92 @@
+.c-section--diferentials {
+  .c-diferentials-itens {
+    background-color: #ed6f2e;
+  }
+
+  .c-diferentials-slider {
+    background-color: #454545;
+  }
+}
+
+.info-inside {
+  padding: 50px;
+
+  .c-service {
+    display: flex;
+
+    .service-icon {
+      margin-right: 20px;
+    }
+  }
+}
+
+.c-service {
+  .description {
+    font-size: 10px;
+  }
+}
+
+.cust-carousel {
+  padding: 150px;
+}
+
+.carousel {
+  .c-diferentials--title {
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .c-info-home {
+    width: 130px;
+    height: 30px;
+    margin: 0 50%;
+    color: #fff;
+    text-align: center;
+    text-indent: unset;
+    background: unset;
+    border: 1px solid #ed6f2e;
+    transform: translateX(-50%);
+
+    &:active {
+      color: #fff;
+      background: #ed6f2e;
+    }
+  }
+
+  .carousel-inner {
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .c-arrow {
+    background-image: unset;
+  }
+
+  .carousel-item {
+    img {
+      width: 80%;
+    }
+  }
+
+}
+
+.cust-carouse2 {
+  margin: 25px;
+}
+
+.c-btn-team--call {
+  padding: 5px 25px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #636363;
+
+  img {
+    margin-right: 8px;
+  }
+
+}

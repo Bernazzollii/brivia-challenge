@@ -2,108 +2,325 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <title>Bootstrap npm starter</title>
 </head>
 
 <body>
-    <!-- start-header -->
-    <header class="header acrylic" data-component="header">
-        <div class="d-flex flex-column">
-            <div class="header__body row">
-                <div class="header__logo col-md">
-                    <a href="#" class="logo">
-                        <img src="/src/images/logo.png" alt="">
-                    </a>
-                </div>
-                <form class="row col-md c-search-icon">
-                    <img src="/src/images/search.png" alt="">
+  <!-- start-header -->
+  <header class="header acrylic" data-component="header">
+    <div class="d-flex flex-column">
+      <div class="header--body row">
+        <div class="header--logo col-md">
+          <a href="#" class="logo">
+            <img src="/src/images/logo.png" alt="">
+          </a>
+        </div>
+        <form class="row col-md c-search-icon" action="">
+          <img src="/src/images/search.png" alt="">
 
-                    <input class="form-control col-md" type="search" placeholder="Ex: Lorem ipsum" aria-label="Search">
-                </form>
-                <button class="navbar-toggler col-md" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <input class="form-control col-md" type="search" placeholder="Ex: Lorem ipsum" aria-label="Search">
+        </form>
+        <button class="navbar-toggler col-md" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon c-text--white"></span><span class="c-text--white">Menu</span>
         </button>
-            </div>
-        </div>
-    </header>
-    <!-- /end-header -->
-
-    <!-- start-slider -->
-    <section class="c-cta_slider">
-        <div class="overlay">
-            <div class="container">
-                <div class="row justify-content-around">
-                    <div class="cta-box__content col-md">
-                        <div class="d-flex flex-column mb-3 justify-content">
-                            <div class="c-property--name">
-                                <div class="c-upertitle">Cubiter au et</div>
-                                <div class="c-title">Lorem Ipsum</div>
-                                <div class="c-subtitle">Aliqquom Leo</div>
-                            </div>
-                            <div class="c-property--size">
-                                <div class="c-title-size_value">Lorem ipsum</div>
-                                <div class="c-size_value">30 e 100m²</div>
-                            </div>
-                            <div class="c-property--price">
-                                <div class="c-title-price_value">Lorem ipsum</div>
-                                <div class="c-price_value">R$ 999.999,99</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta-box__contact col-md">
-                        <div class="cta-form d-flex flex-column mb-3 justify-content-center">
-                            <div class="c-form--info">
-                                <div class="c-form--title">Lorem Ipsumm</div>
-                                <div class="c-form--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut erat aliquam leo.</div>
-                            </div>
-                            <div class="c-box--form d-flex flex-column mb-3">
-                                <input type="text" class="c-form c-input--name" placeholder="Nome">
-                                <input type="email" class="c-form c-input--email" placeholder="E-mail">
-                                <input type="tel" class="c-form c-input--phone" placeholder="Telefone">
-                                <button class="c-form-btn js-submit-btn" type="submit">Lorem Ipsum</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="arrow bounce"></div>
-
-    </section>
-    <!-- /end-slider -->
-
-    <!-- start-short-content -->
-    <section class="short-content">
-        <div class="container">
-
-        </div>
-    </section>
-    <!-- /end-short-content -->
-
-    <!-- start-map -->
-    <section class="map">
-        <div class="container">
-        </div>
-    </section>
-    <!-- /end-map -->
-
-    <!-- start-cta -->
-    <div class="cta">
-        <div class="container">
-        </div>
+      </div>
     </div>
-    <!-- /end-cta -->
+  </header>
+  <!-- /end-header -->
 
-    <!-- start-footer -->
-    <footer class="footer">
-        <!--
-      - Put your Footer markup here.
-    -->
-    </footer>
-    <!-- /end-footer -->
+  <!-- start-slider -->
+  <section class="c-cta-slider">
+    <div class="overlay">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="cta-box--content col-md">
+            <div class="d-flex flex-column mb-3 justify-content">
+              <div class="c-property--name">
+                <div class="c-upertitle">Cubiter au et</div>
+                <div class="c-title">Lorem Ipsum</div>
+                <div class="c-subtitle">Aliqquom Leo</div>
+              </div>
+              <div class="c-property--size">
+                <div class="c-title-size--value">Lorem ipsum</div>
+                <div class="c-size--value">30 e 100m²</div>
+              </div>
+              <div class="c-property--price">
+                <div class="c-title-price--value">Lorem ipsum</div>
+                <div class="c-price--value">R$ 999.999,99</div>
+              </div>
+            </div>
+          </div>
+          <div class="cta-box--contact col-md">
+            <div class="cta-form d-flex flex-column mb-3 justify-content-center">
+              <div class="c-form--info">
+                <div class="c-form--title">Lorem Ipsumm</div>
+                <div class="c-form--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut
+                  erat aliquam leo.</div>
+              </div>
+              <div class="c-box--form d-flex flex-column mb-3">
+                <input type="text" class="c-form c-input--name" placeholder="Nome" required>
+                <input type="email" class="c-form c-input--email" placeholder="E-mail" required>
+                <input type="tel" class="c-form c-input--phone" placeholder="Telefone" required>
+                <button class="c-form-btn js-submit-btn" type="submit">Lorem Ipsum</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow bounce"></div>
+
+  </section>
+  <!-- /end-slider -->
+
+  <!-- start-short-content -->
+  <section class="c-short-content">
+    <div class="container">
+      <div class="row justify-content-around c-section">
+        <div class="col-md c-photo-team"></div>
+        <div class="col-md c-info--team">
+          <div class="c-inner-section">
+            <div class="d-flex justify-content-center c-topic-row">
+              <div class="c-box c-box--gallery"><img src="/src/images/icone_galeria.png" alt=""><span>Galeria</span>
+              </div>
+              <div class="c-box c-box--blueprint"><img src="/src/images/icone_planta.png" alt=""><span>Planta</span>
+              </div>
+              <div class="c-box c-box--map"><img src="/src/images/Icone_pin.png" alt=""><span>Mapa</span></div>
+              <div class="c-box c-box--video"><img src="/src/images/icon_play.png" alt=""><span>Vídeo</span></div>
+            </div>
+            <div class="c-info--description">Lorem ipsum dolor sit amet, enim ad minim veniam, quis nostrud exercitation
+              ullamco.
+            </div>
+            <div class="c-team-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia.
+            </div>
+            <button class="c-btn-call--team"><img src="/src/images/icon_whatasapp.png" alt=""><span>FALE COM NOSSA
+                EQUIPE</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /end-short-content -->
+
+  <!-- start-details -->
+  <section class="c-section c-section--diferentials">
+    <div class="row justify-content-around c-section">
+      <div class="col-md-6 c-diferentials-itens">
+        <div class="container">
+          <div class="row">
+            <div class="info-inside">
+              <h3>Lorem ipsum<br> dolor sit ament.</h3>
+              <div class="row mt-4">
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon"><img src="src/images/Grupo 1826.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Curabitur ut erat aliquam leo
+                        sodales viverra.
+                      </div>
+                      <div class="description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Curabitur
+                        ut erat aliquam leo sodales viverra.
+                        Proin eget tristique ex.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon"><img src="src/images/Caminho 2458.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Curabitur ut erat aliquam leo
+                        sodales viverra.
+                      </div>
+                      <div class="description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Curabitur
+                        ut erat aliquam leo sodales viverra.
+                        Proin eget tristique ex.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row ">
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon"><img src="src/images/Layer 22.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Curabitur ut erat aliquam leo
+                        sodales viverra.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon"><img src="src/images/Caminho 2460.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Curabitur ut erat aliquam leo
+                        sodales viverra.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon icon-5"><img src="src/images/Layer 2.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                      </div>
+                      <div class="description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Curabitur
+                        ut erat aliquam leo sodales viverra.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 pt-3 pb-3">
+                  <div class="c-service">
+                    <div class="service-icon"><img src="src/images/Grupo 1914.png" alt="calender"></div>
+                    <div class="service-text">
+                      <div class="title">Lorem ipsum dolor sit amet,
+                      </div>
+                      <div class="description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Curabitur
+                        ut erat aliquam leo sodales viverra.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="c-btn-team--call"><img src="/src/images/icon_whatasapp.png" alt=""><span>Lorem Ipsum
+                  Dolor</span></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-md c-diferentials-slider">
+        <div class="c-inner-section container">
+
+          <div id="custCarouse2" class="carousel slide cust-carouse2" data-ride="carousel">
+            <div class="c-diferentials--title">Lorem Ipsum</div>
+            <div class="carousel-inner">
+              <div class="carousel-item c-info-home active" data-slide-to="1" data-target="#custCarousel"> <span>90M² |
+                  0
+                  Dorms</span>
+              </div>
+              <div class="carousel-item c-info-home" data-slide-to="2" data-target="#custCarouse1"> <span>10M²|0
+                  Dorms</span> </div>
+              <div class="carousel-item c-info-home" data-slide-to="3" data-target="#custCarouse1"> <span>20M² | 0
+                  Dorms</span> </div>
+              <div class="carousel-item c-info-home" data-slide-to="4" data-target="#custCarouse1"><span>3M² | 0
+                  Dorms</span> </div>
+              <!-- Left right --> <a class="c-arrow carousel-control-prev" href="#custCarousel" data-slide="prev">
+                <span class=" carousel-control-prev-icon"></span> </a>
+              <a class="c-arrow  carousel-control-next" href="#custCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span> </a>
+              <!-- Thumbnails -->
+
+            </div>
+          </div>
+
+          <div id="custCarousel" class="carousel slide cust-carouse1" data-ride="carousel">
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <img src="https://i.imgur.com/weXVL8M.jpg" alt="Hills"> </div>
+              <div class="carousel-item"> <img src="https://i.imgur.com/Rpxx6wU.jpg" alt="Hills"> </div>
+              <div class="carousel-item"> <img src="https://i.imgur.com/83fandJ.jpg" alt="Hills"> </div>
+              <div class="carousel-item"> <img src="https://i.imgur.com/JiQ9Ppv.jpg" alt="Hills"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- /end-details -->
+
+  <!-- start-cta -->
+  <div class="c-section c-section--schedule">
+    <div class="container">
+      <div class="c-schedule--title">
+        Lorem Ipsum Dolor
+      </div>
+      <div class="c-schedule--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. </div>
+
+      <div class="d-flex bd-highlight mb-3">
+        <div class="c-schedule--date me-auto">
+          <img src="src/images/orange_pin.png" alt="">
+          <span>veniam dolor, 999</span>
+        </div>
+
+        <button class="c-btn-schedule c-btn-schedule--date"><img src="/src/images/icon_whatasapp.png"
+            alt=""><span>Agende uma
+            visita</span></button>
+        <button class="c-btn-schedule c-btn-get--lift"><img src="/src/images/icon_whatasapp.png" alt=""><span>Ir de
+            Waze</span></button>
+      </div>
+    </div>
+  </div>
+  <!-- /end-cta -->
+
+  <!-- start-map -->
+  <section class="c-section--map">
+    <img class="c-map--image" src="src/images/map_location.png" alt="">
+    <!-- <div class="c-map--image">aaa</div> -->
+  </section>
+  <!-- /end-map -->
+
+
+
+  <!-- start-footer -->
+  <footer class="c-footer">
+    <div class="d-flex flex-column">
+      <div class="row">
+        <div class="c-footer--logo w-100">
+          <a href="#" class="logo">
+            <img src="/src/images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="h-divider w-100"></div>
+        <div class="d-flex justify-content-start  c-copyright--section">
+          <div class="c-info-copyright col-md">2018 Copyright - Todos os direitos reservados.</div>
+          <div class="c-info-copyright col-md">Sed mattis, 9999 | 3º dolor | Lorem | Ipsum</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /end-footer -->
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script type="module" src="assets/js/starter.js"></script>
 
 </html>
