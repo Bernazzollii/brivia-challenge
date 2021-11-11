@@ -48,7 +48,7 @@
     border: 1px solid #ed6f2e;
     transform: translateX(-50%);
 
-    &:active {
+    &.active {
       color: #fff;
       background: #ed6f2e;
     }

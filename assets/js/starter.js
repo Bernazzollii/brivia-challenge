@@ -32,3 +32,17 @@ console.log('JS test');
 
 $('#custCarousel').carousel();
 $('#custCarouse2').carousel();
+
+document.addEventListener('click', (ev) => {
+  let btnMenu = ev.target.closest(".btn-menu");
+
+  if (null === btnMenu) {
+    return;
+  }
+
+  let activateDropdown = document.querySelector('.dropdown');
+  activateDropdown.classList.toggle('active');
+
+
+
+});

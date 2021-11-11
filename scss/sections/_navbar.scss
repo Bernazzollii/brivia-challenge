@@ -80,3 +80,32 @@ html [type="button"] {
 .header--logo {
   padding: 10px 40px;
 }
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  overflow: hidden;
+
+
+  &.active {
+    display: block;
+  }
+
+  .c-menu-dropdown {
+    width: 235px;
+    background-color: #252525;
+
+    a {
+      display: block;
+      padding: 15px;
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+        background-color: #e27035;
+      }
+    }
+  }
+}
